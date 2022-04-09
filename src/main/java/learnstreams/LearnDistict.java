@@ -50,6 +50,7 @@ public class LearnDistict {
 		List<Integer> collect = set.stream().filter(elm->elm<30).map(elm->elm+100).collect(Collectors.toList());
 		System.out.println(collect);
 		
+		System.out.println("New Adding for Second commit");
 		
 	}
 	
